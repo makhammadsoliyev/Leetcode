@@ -1,19 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
-/*public class Solution
-{
-    public int RemoveDuplicates(int[] nums)
-    {
-        var setNums = new SortedSet<int>(nums).ToArray();
-        for (int i = 0; i < setNums.Length; i++)
-        {
-            nums[i] = setNums[i];
-        }
-        return setNums.Length;
-    }
-}*/
+﻿namespace Leetcode;
 
-
-/*public class Solution
+public class SummaryRangesLeetcode
 {
     public IList<string> SummaryRanges(int[] nums)
     {
@@ -39,4 +26,4 @@
         }
         return list;
     }
-}*/
+}
